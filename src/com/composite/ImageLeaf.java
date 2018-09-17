@@ -10,7 +10,7 @@ public class ImageLeaf implements Component {
 
 	private String imageName;
 
-	public ImageLeaf(String imageName) {
+	ImageLeaf(String imageName) {
 		this.imageName = imageName;
 	}
 
@@ -31,7 +31,7 @@ class TextLeaf implements Component {
 
 	String textName;
 
-	public TextLeaf(String textName) {
+	TextLeaf(String textName) {
 		this.textName = textName;
 	}
 
@@ -51,7 +51,7 @@ class VideoLeaf implements Component {
 
 	private String videoName;
 
-	public VideoLeaf(String videoName) {
+	VideoLeaf(String videoName) {
 		this.videoName = videoName;
 	}
 

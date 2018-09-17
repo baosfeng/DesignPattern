@@ -8,9 +8,10 @@ package com.adapter;
  */
 public class Adapter implements Target {
 
+	// 方式为组合方式，从而可以获得对象方法进行从其他类向本类的转换
 	private Adaptee adaptee;
 
-	public Adapter(Adaptee adaptee) {
+	Adapter(Adaptee adaptee) {
 		this.adaptee = adaptee;
 	}
 

@@ -11,6 +11,7 @@ import java.util.List;
  */
 public class Composite implements Component {
 
+	//可存储本类对象和叶子对象，包括文件夹和文件
 	private static List<Component> list = new ArrayList<>();
 	private String folderName;
 	private int index = 0;

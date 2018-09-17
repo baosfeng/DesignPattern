@@ -6,9 +6,9 @@ package com.adapter;
  * @author Administrator
  * @date 2018/8/20
  */
-public class Adaptee {
+class Adaptee {
 
-	public void function() {
+	void function() {
 		System.out.println("我将要被适配了！");
 	}
 }

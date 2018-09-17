@@ -1,12 +1,12 @@
 package com.bridge;
 
 /**
- * 各种种类的电子仪器
+ * 各种种类的电子仪器，具有其他需要组合的抽象接口，本类为抽象类，用于获得实例化后的对象，从而进行组装
  *
  * @author Administrator
  * @date 2018/8/21
  */
-public abstract class Model {
+abstract class Model {
 
 	private Brand brand;
 

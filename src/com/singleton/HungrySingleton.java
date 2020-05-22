@@ -8,7 +8,7 @@ package com.singleton;
  */
 public class HungrySingleton {
 
-	private static HungrySingleton instance = new HungrySingleton();
+	private static final HungrySingleton instance = new HungrySingleton();
 
 	private HungrySingleton() {
 	}

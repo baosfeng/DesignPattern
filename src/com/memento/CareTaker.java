@@ -11,7 +11,7 @@ import java.util.LinkedList;
 class CareTaker {
 
 	//保存多个备忘录信息
-	private static LinkedList<EmpMemento> list = new LinkedList<>();
+	private static final LinkedList<EmpMemento> list = new LinkedList<>();
 
 	static EmpMemento getEmpMemento() {
 		return list.getLast();
@@ -27,7 +27,7 @@ class CareTaker {
 	 * @param index 索引值
 	 * @return 备忘录
 	 */
-	static EmpMemento getEmpmemento(int index) {
+	static EmpMemento getEmpMemento(int index) {
 		return list.get(index);
 	}
 }

@@ -1,6 +1,8 @@
 package com.strategy;
 
 /**
+ * 策略模式,根据不同的策略发生不同的变化
+ *
  * @author Administrator
  * @date 2018/8/23
  */

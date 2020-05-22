@@ -4,11 +4,12 @@ import java.util.concurrent.*;
 
 /**
  * 使用jdk内置的future类来实现future设计模式的创建
+ * 具体的实现过程为:单独创建一个新的线程去执行任务,其他的任务继续异步执行
  *
  * @author 小书包
  * @date 2018/11/27 21:37
  */
-public class Main {
+public class Client {
 
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		String query = "查询条件";

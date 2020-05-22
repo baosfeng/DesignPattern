@@ -1,6 +1,8 @@
 package com.memento;
 
 /**
+ * 备忘录模式,用于记录输入的历史记录
+ *
  * @author Administrator
  * @date 2018/8/23
  */

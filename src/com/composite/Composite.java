@@ -12,7 +12,7 @@ import java.util.List;
 public class Composite implements Component {
 
 	//可存储本类对象和叶子对象，包括文件夹和文件
-	private static List<Component> list = new ArrayList<>();
+	private List<Component> list = new ArrayList<>();
 	private String folderName;
 	private int index = 0;
 
@@ -25,7 +25,7 @@ public class Composite implements Component {
 	 *
 	 * @param component 接口的实现类，包括文件夹与各个不同的文件
 	 */
-	static void add(Component component) {
+	void add(Component component) {
 		list.add(component);
 	}
 
@@ -34,7 +34,7 @@ public class Composite implements Component {
 	 *
 	 * @param component 文件夹或文件
 	 */
-	public static void remove(Component component) {
+	public void remove(Component component) {
 		list.add(component);
 	}
 
@@ -44,7 +44,7 @@ public class Composite implements Component {
 	 * @param index 索引值
 	 * @return 接口对象
 	 */
-	public static Component get(int index) {
+	public Component get(int index) {
 		return list.get(index);
 	}
 
